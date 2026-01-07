@@ -1,0 +1,58 @@
+Subject: Community Node Verification Request - n8n-nodes-nedzo
+
+Dear n8n Team,
+
+I hope this message finds you well.
+
+I have developed and published a community node for n8n that integrates with Nedzo, an AI voice agent automation platform. I would like to submit it for verification so it can be available to n8n Cloud users.
+
+Package Details:
+- npm Package: n8n-nodes-nedzo
+- Version: 1.0.0
+- npm URL: https://www.npmjs.com/package/n8n-nodes-nedzo
+- GitHub Repository: https://github.com/mudit-nedzo/n8n-nodes-nedzo
+- License: MIT
+
+Node Description:
+The Nedzo node enables users to integrate AI-powered voice agents into their n8n workflows. Users can:
+- Create and manage AI voice agents
+- Initiate automated phone calls
+- Configure agent behavior and responses
+- Handle voice interactions programmatically
+- Automate voice-based customer communications
+
+The node provides operations for:
+1. Managing Agents (create, list, get, update, delete)
+2. Making Calls (initiate voice calls with AI agents)
+
+Technical Compliance:
+✅ Published on npm registry
+✅ Package name follows n8n convention (n8n-nodes-nedzo)
+✅ Includes 'n8n-community-node-package' keyword
+✅ MIT License
+✅ No runtime dependencies
+✅ All documentation in English
+✅ Built using n8n-node CLI tool scaffolding
+
+I am ready to:
+- Provide example workflows demonstrating the node's functionality
+- Create a demo video showing the node in action
+- Submit any additional documentation required
+- Make any necessary adjustments to meet verification requirements
+
+Could you please:
+1. Confirm the n8n Creator Portal URL (creators.n8n.io) and provide access if needed
+2. Guide me through the formal submission process on the Creator Portal
+3. Let me know if any additional information or changes are needed to meet verification standards
+
+Additionally, I noticed my n8n Cloud instance (mudit07.app.n8n.cloud) doesn't show the "Install a community node" button in Settings → Community nodes. Could you help enable community node installation for my instance?
+
+I am committed to maintaining this node and providing support to the n8n community.
+
+Thank you for your time and consideration. I look forward to hearing from you.
+
+Best regards,
+Mudit Kumar
+Nedzo
+Email: mudit@nedzo.ai
+GitHub: @mudit-nedzo
