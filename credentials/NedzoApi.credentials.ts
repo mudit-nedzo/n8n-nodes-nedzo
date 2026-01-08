@@ -33,10 +33,8 @@ export class NedzoApi implements ICredentialType {
 
 	test: ICredentialTestRequest = {
 		request: {
-			baseURL: 'https://api.nedzo.ai/v1',
-			url: '/workspaces',
-			method: 'GET',
-			ignoreHttpStatusErrors: true,
+			baseURL: 'https://api.nedzo.ai',
+			url: '/',
 		},
 	};
 }
