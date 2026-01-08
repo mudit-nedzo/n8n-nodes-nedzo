@@ -26,7 +26,7 @@ export class NedzoApi implements ICredentialType {
 		type: 'generic',
 		properties: {
 			headers: {
-				Authorization: '={{$credentials?.apiKey}}',
+				Authorization: '=Bearer {{$credentials?.apiKey}}',
 			},
 		},
 	};
