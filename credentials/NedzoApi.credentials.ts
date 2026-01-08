@@ -36,6 +36,7 @@ export class NedzoApi implements ICredentialType {
 			baseURL: 'https://api.nedzo.ai/v1',
 			url: '/workspaces',
 			method: 'GET',
+			ignoreHttpStatusErrors: true,
 		},
 	};
 }
