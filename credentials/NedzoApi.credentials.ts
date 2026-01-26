@@ -10,7 +10,7 @@ export class NedzoApi implements ICredentialType {
 
 	displayName = 'Nedzo API';
 
-	documentationUrl = 'nedzo';
+	documentationUrl = 'https://docs.nedzo.ai';
 
 	properties: INodeProperties[] = [
 		{

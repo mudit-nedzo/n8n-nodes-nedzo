@@ -6,12 +6,12 @@
 	"resources": {
 		"credentialDocumentation": [
 			{
-				"url": "https://docs.n8n.io/integrations/builtin/credentials/nedzo/"
+				"url": "https://docs.nedzo.ai/authentication"
 			}
 		],
 		"primaryDocumentation": [
 			{
-				"url": "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.nedzo/"
+				"url": "https://docs.nedzo.ai"
 			}
 		]
 	}
