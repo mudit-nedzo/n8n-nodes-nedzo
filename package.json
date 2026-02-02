@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-nedzo",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "n8n node for Nedzo AI voice agent automation platform",
   "keywords": [
     "n8n-community-node-package",
