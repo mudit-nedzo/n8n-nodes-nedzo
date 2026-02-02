@@ -4,14 +4,9 @@
 	"codexVersion": "1.0",
 	"categories": ["Communication", "Sales"],
 	"resources": {
-		"credentialDocumentation": [
-			{
-				"url": "https://docs.nedzo.ai/authentication"
-			}
-		],
 		"primaryDocumentation": [
 			{
-				"url": "https://docs.nedzo.ai"
+				"url": "https://nedzo.ai/docs"
 			}
 		]
 	}

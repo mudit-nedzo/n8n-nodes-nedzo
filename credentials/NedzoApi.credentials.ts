@@ -1,9 +1,4 @@
-import type {
-	IAuthenticateGeneric,
-	ICredentialTestRequest,
-	ICredentialType,
-	INodeProperties,
-} from 'n8n-workflow';
+import type { IAuthenticateGeneric, ICredentialType, INodeProperties } from 'n8n-workflow';
 
 export class NedzoApi implements ICredentialType {
 	name = 'nedzoApi';
@@ -26,15 +21,8 @@ export class NedzoApi implements ICredentialType {
 		type: 'generic',
 		properties: {
 			headers: {
-				Authorization: '=Bearer {{$credentials?.apiKey}}',
+				Authorization: '=Bearer {{$credentials.apiKey}}',
 			},
-		},
-	};
-
-	test: ICredentialTestRequest = {
-		request: {
-			baseURL: 'https://api.nedzo.ai',
-			url: '/',
 		},
 	};
 }
