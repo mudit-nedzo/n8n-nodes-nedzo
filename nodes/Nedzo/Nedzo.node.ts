@@ -271,6 +271,11 @@ export class Nedzo implements INodeType {
 						type: 'string',
 						default: '',
 						description: 'System prompt for the agent',
+						displayOptions: {
+							show: {
+								'/agentType': ['Inbound Voice', 'Outbound Voice'],
+							},
+						},
 					},
 					{
 						displayName: 'Voice ID',
@@ -290,6 +295,11 @@ export class Nedzo implements INodeType {
 						type: 'boolean',
 						default: true,
 						description: 'Whether the agent is active',
+						displayOptions: {
+							show: {
+								'/agentType': ['Inbound Voice', 'Outbound Voice'],
+							},
+						},
 					},
 					{
 						displayName: 'Background Sound',
@@ -480,6 +490,11 @@ export class Nedzo implements INodeType {
 						type: 'string',
 						default: '',
 						description: 'System prompt for the agent',
+						displayOptions: {
+							show: {
+								'/updateAgentType': ['Inbound Voice', 'Outbound Voice'],
+							},
+						},
 					},
 					{
 						displayName: 'Voice ID',
@@ -499,6 +514,11 @@ export class Nedzo implements INodeType {
 						type: 'boolean',
 						default: true,
 						description: 'Whether the agent is active',
+						displayOptions: {
+							show: {
+								'/updateAgentType': ['Inbound Voice', 'Outbound Voice'],
+							},
+						},
 					},
 					{
 						displayName: 'Background Sound',
