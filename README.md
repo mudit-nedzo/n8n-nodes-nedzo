@@ -28,28 +28,26 @@ This node requires Nedzo API credentials. You can obtain an API key from your [N
 ## Operations
 
 ### Agent
-- **Create** - Create a new AI voice agent
-- **Get** - Retrieve an agent by ID
-- **Get Many** - List all agents in a workspace
-- **Update** - Update an agent's configuration
-- **Delete** - Delete an agent
+- **Create Agent** - Create a new agent within a workspace
+- **Find Agent** - Find and get an agent details
+- **Update Agent** - Updates an agent within a workspace
+- **Delete Agent** - Delete agent (permanent)
 
 ### Call
-- **Create** - Initiate an outbound call using an agent
+- **Make Phone Call** - Creates an outbound phone call using Nedzo voice agent
 
 ### Contact
-- **Create** - Create a new contact
-- **Get** - Retrieve a contact by ID
-- **Get Many** - List all contacts in a workspace
-- **Update** - Update a contact's information
-- **Delete** - Delete a contact
+- **Create/Update Contact** - Creates or updates a contact in a workspace
+- **Find Contact** - Gets a contact and all its information
+- **Delete Contact** - Deletes a contact in a workspace
 
 ### Workspace
-- **Create** - Create a new workspace
-- **Get** - Retrieve a workspace by ID
-- **Get Many** - List all workspaces
-- **Update** - Update workspace settings
-- **Delete** - Delete a workspace
+- **Create Workspace** - Creates a workspace in an account
+- **Delete Workspace** - Deletes a workspace (permanent)
+
+## Documentation
+
+For detailed step-by-step instructions on using each operation, see the [full documentation](DOCUMENTATION.md).
 
 ## Compatibility
 
