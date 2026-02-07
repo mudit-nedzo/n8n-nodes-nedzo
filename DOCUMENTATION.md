@@ -48,8 +48,6 @@ Creates an outbound phone call using Nedzo voice agent.
 
 **For Contact calls:**
 5. Enter **Contact ID** - UUID of the contact to call. The contact must already exist in your workspace.
-6. Click **Add Field** to add optional fields:
-   - **Variables (JSON)** - Custom variables to pass to the assistant. These override contact field values and can be referenced in the agent's prompt.
 
 ---
 
@@ -84,7 +82,7 @@ For agents that handle incoming phone calls.
 - **Is Active** - Whether the agent is active and ready to handle calls. Default is true.
 
 **Voice-Specific Fields:**
-- **Opening Line** - The first message the agent speaks when a call starts. This sets the tone for the conversation.
+- **Opening Line** - The first message the agent speaks when a call starts.
 - **Voice ID** - Voice provider ID for text-to-speech. Determines which voice the agent uses when speaking.
 - **Background Sound** - Enable background sound during calls to make conversations feel more natural. Default is true.
 - **HIPAA Compliance** - When enabled, no logs, recordings, or transcriptions will be stored. Use this for healthcare-related calls. Default is false.
@@ -98,7 +96,7 @@ For agents that handle incoming phone calls.
 For agents that make outgoing phone calls.
 
 **Common Fields:**
-- **Name** (required) - Agent name. Must be between 1-255 characters. This is how the agent will be identified in your workspace.
+- **Name** (required) - Agent name. Must be between 1-255 characters. 
 - **Agent Type** (required) - Select "Outbound Voice" for agents that make outgoing calls.
 - **Workspace** (required) - The workspace where this agent will be created. Select from the dropdown.
 
@@ -108,7 +106,7 @@ For agents that make outgoing phone calls.
 - **Is Active** - Whether the agent is active and ready to make calls. Default is true.
 
 **Voice-Specific Fields:**
-- **Opening Line** - The first message the agent speaks when a call starts. This sets the tone for the conversation.
+- **Opening Line** - The first message the agent speaks when a call starts.
 - **Voice ID** - Voice provider ID for text-to-speech. Determines which voice the agent uses when speaking.
 - **Voicemail** - Enable voicemail detection. When enabled, the agent can detect when a call goes to voicemail. Default is false.
 - **Voicemail Message** - Message to leave when voicemail is detected. Only used when Voicemail detection is enabled.
@@ -127,8 +125,6 @@ For chat-based agents.
 - **Name** (required) - Agent name. Must be between 1-255 characters. This is how the agent will be identified in your workspace.
 - **Agent Type** (required) - Select "Chat" for text-based chat agents.
 - **Workspace** (required) - The workspace where this agent will be created. Select from the dropdown.
-
-**Additional Fields (click Add Field):**
 - **Prompt** - System prompt for the agent. This defines how the agent behaves and responds during chat conversations.
 - **Language** - The language the agent will communicate in. Options: english, spanish, french, german, portuguese, dutch, chinese, japanese. Default is english.
 - **Is Active** - Whether the agent is active and ready to handle chat conversations. Default is true.
@@ -143,8 +139,6 @@ For agents embedded on websites.
 - **Name** (required) - Agent name. Must be between 1-255 characters. This is how the agent will be identified in your workspace.
 - **Agent Type** (required) - Select "Widget" for agents that will be embedded on websites.
 - **Workspace** (required) - The workspace where this agent will be created. Select from the dropdown.
-
-**Additional Fields (click Add Field):**
 - **Prompt** - System prompt for the agent. This defines how the agent behaves and responds when visitors interact with the widget.
 - **Language** - The language the agent will communicate in. Options: english, spanish, french, german, portuguese, dutch, chinese, japanese. Default is english.
 - **Is Active** - Whether the agent is active and ready to handle widget interactions. Default is true.
