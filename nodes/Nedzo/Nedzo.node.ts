@@ -94,7 +94,7 @@ export class Nedzo implements INodeType {
 						name: 'Update Agent',
 						value: 'update',
 						description: 'Updates an agent within a workspace',
-						action: 'Upate Agent',
+						action: 'Update Agent',
 					},
 				],
 				default: 'create',
